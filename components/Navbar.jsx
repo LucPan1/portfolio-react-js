@@ -35,25 +35,25 @@ const Navbar = () => {
         />
         <div>
           <ul className="hidden md:flex">
-            <Link href="/#home">
+            <Link href="/#home" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Accueil
               </li>
             </Link>
-            <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Profil</li>
+            <Link href="/#profil" scroll={false}>
+              <li className="ml-10 text-sm uppercase hover:border-b" >Profil</li>
             </Link>
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Parcours
               </li>
             </Link>
-            <Link href="/#projects">
+            <Link href="/#projects" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Mes Projets
               </li>
             </Link>
-            <Link href="/">
+            <Link href="/#contact" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Contact
               </li>
@@ -101,17 +101,17 @@ const Navbar = () => {
           </div>
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
-              <Link href="/">
-                <li className="py-3 text-sm">Accueil</li>
+              <Link href="/#home" scroll={false}>
+                <li onClick={()=> setNav(false)} className="py-3 text-sm">Accueil</li>
               </Link>
-              <Link href="/">
-                <li className="py-3 text-sm">Parcours</li>
+              <Link href="/" scroll={false}>
+                <li onClick={()=> setNav(false)} className="py-3 text-sm">Parcours</li>
               </Link>
-              <Link href="/">
-                <li className="py-3 text-sm">Mes Projets</li>
+              <Link href="/#projects" scroll={false}>
+                <li onClick={()=> setNav(false)} className="py-3 text-sm">Mes Projets</li>
               </Link>
-              <Link href="/">
-                <li className="py-3 text-sm">Contact</li>
+              <Link href="/" scroll={false}> 
+                <li onClick={()=> setNav(false)} className="py-3 text-sm">Contact</li>
               </Link>
             </ul>
             <div className="pt-32 flex items-center justify-between my-4 w-full sm:w-[80%">

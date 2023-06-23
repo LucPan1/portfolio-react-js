@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import { AiOutlineMail} from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -16,14 +17,14 @@ const Main = () => {
             <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
                 Je suis un développeur front-end spécialisé dans le développement 
                 web. Actuellement, je me concentre dans des projets d'applications front-end 
-                en apprenant en même temps la technologie back-end.
+                tout en apprenant en même temps la technologie back-end.
             </p>
             <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaLinkedinIn />
+                    <Link href='https://www.linkedin.com/in/luc-pan-1314b7233/' target="_blank"> <FaLinkedinIn /> </Link>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaGithub />
+                <Link href='https://github.com/LucPan1' target="_blank"> <FaGithub /> </Link>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <AiOutlineMail />
