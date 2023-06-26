@@ -4,6 +4,7 @@ import Link from "next/link";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import logoImg from '../public/assets/logo/logo.png';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -28,7 +29,7 @@ const Navbar = () => {
     <div className={shadow ? "fixed w-full h-20 shadow-xl z-[100]" : "fixed w-full h-20 z-[100]"}>
       <div className="flex justify-between items-center px-0 2xl:px-16">
         <Image
-          src="../public/assets/logo.png"
+          src={logoImg}
           alt="/"
           width="78"
           height="20"
