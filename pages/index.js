@@ -3,7 +3,8 @@ import Navbar from "../components/Navbar";
 import Main from "../components/Main";
 import Head from "next/head";
 import Projects from "../components/Projects";
-
+import About from "@/components/About";
+import Contact from "@/components/Contact";
 // const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -16,7 +17,9 @@ export default function Home() {
       </Head>
       <Navbar />
       <Main />  
+      <About />
       <Projects /> 
+      <Contact />
     </div>
   );
 }

@@ -26,12 +26,17 @@ const Main = () => {
                 <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <Link href='https://github.com/LucPan1' target="_blank"> <FaGithub /> </Link>
                 </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <AiOutlineMail />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <BsFillPersonLinesFill />
-                </div>
+                
+                <a
+                    href='/assets/contact/CV.pdf'
+                    target='_blank'
+                    rel="noopener noreferrer"
+                    >
+                <button class="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300">
+                    Mon CV
+                </button>
+                </a>
+                
             </div>
             </div>
         </div>

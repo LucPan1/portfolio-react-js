@@ -26,11 +26,11 @@ const Navbar = () => {
 
   return (
     <div className={shadow ? "fixed w-full h-20 shadow-xl z-[100]" : "fixed w-full h-20 z-[100]"}>
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+      <div className="flex justify-between items-center px-0 2xl:px-16">
         <Image
-          src="/../public/assets/icon.png"
+          src="/../public/assets/logo.png"
           alt="/"
-          width="75"
+          width="78"
           height="20"
         />
         <div>
@@ -40,14 +40,10 @@ const Navbar = () => {
                 Accueil
               </li>
             </Link>
-            <Link href="/#profil" scroll={false}>
-              <li className="ml-10 text-sm uppercase hover:border-b" >Profil</li>
+            <Link href="/#about" scroll={false}>
+              <li className="ml-10 text-sm uppercase hover:border-b" >A propos</li>
             </Link>
-            <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">
-                Parcours
-              </li>
-            </Link>
+           
             <Link href="/#projects" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Mes Projets
@@ -104,34 +100,39 @@ const Navbar = () => {
               <Link href="/#home" scroll={false}>
                 <li onClick={()=> setNav(false)} className="py-3 text-sm">Accueil</li>
               </Link>
-              <Link href="/" scroll={false}>
-                <li onClick={()=> setNav(false)} className="py-3 text-sm">Parcours</li>
+              <Link href="/#about" scroll={false}>
+                <li onClick={()=> setNav(false)} className="py-3 text-sm">A PROPOS</li>
               </Link>
               <Link href="/#projects" scroll={false}>
                 <li onClick={()=> setNav(false)} className="py-3 text-sm">Mes Projets</li>
               </Link>
-              <Link href="/" scroll={false}> 
+              <Link href="/#contact" scroll={false}> 
                 <li onClick={()=> setNav(false)} className="py-3 text-sm">Contact</li>
               </Link>
             </ul>
             <div className="pt-32 flex items-center justify-between my-4 w-full sm:w-[80%">
               <p className="uppercase tracking-widest text-[#5651e5]">
                 {" "}
-                Let's Connect
+                Retrouvez moi sur
               </p>
               <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                <FaLinkedinIn />
+                <Link href='https://www.linkedin.com/in/luc-pan-1314b7233/' target="_blank"><FaLinkedinIn /></Link>
               </div>
               <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                <FaGithub />
+              <Link href='https://github.com/LucPan1' target="_blank"> <FaGithub /> </Link>
               </div>
-              <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                <AiOutlineMail />
-              </div>
+
+              <a
+                    href='/assets/contact/CV.pdf'
+                    target='_blank'
+                    rel="noopener noreferrer"
+                    >
               <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                 <BsFillPersonLinesFill />
               </div>
+              </a>
             </div>
+            
           </div>
         </div>
       </div>
