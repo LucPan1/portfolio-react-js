@@ -34,7 +34,7 @@ const Navbar = () => {
           height="20"
         />
         <div>
-          <ul className="hidden md:flex">
+          <ul className="hidden md:flex pr-7">
             <Link href="/#home" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Accueil
@@ -55,7 +55,7 @@ const Navbar = () => {
               </li>
             </Link>
           </ul>
-          <div onClick={handleNav} className="md:hidden cursor-pointer">
+          <div onClick={handleNav} className="md:hidden cursor-pointer pr-3">
             <AiOutlineMenu size={25} />
           </div>
         </div>
