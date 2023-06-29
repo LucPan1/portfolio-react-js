@@ -10,11 +10,11 @@ import { useRouter } from 'next/router';
 
 const Projects = () => {
     
-    const router = useRouter()
+    /*const router = useRouter()
     const handleClick = () => {
         console.log('click')
         router.push('/project/project')
-    }
+    }*/
 
   return (
     
@@ -48,7 +48,7 @@ const Projects = () => {
                 Voir le site
               </p>
             </Link>
-            <button className="text-center content-center rounded-lg text-black font-bold text-lg cursor-pointer" onClick={handleClick}> En savoir plus </button>
+            {/* <button className="text-center content-center rounded-lg text-black font-bold text-lg cursor-pointer" onClick={handleClick}> En savoir plus </button> */}
             </div>
          
         </div>
