@@ -6,14 +6,24 @@ import bonbonsImg from "../public/assets/projects/Bonbons2.png";
 import tshopImg from "../public/assets/projects/tshop.png";
 import reservationImg from "../public/assets/projects/reservation-csharp.png";
 import sicilylinesImg from "../public/assets/projects/sicilylines.png";
+import { useRouter } from 'next/router';
 
 const Projects = () => {
+    
+    const router = useRouter()
+    const handleClick = () => {
+        console.log('click')
+        router.push('/project/project')
+    }
+
   return (
+    
     <div id="projects" className="w-full">
       <div className="max-w-[1200px] mx-auto px-2 py-16">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Projects
         </p>
+           
         <h2 className="py-4">Mes projets</h2>
         
         <div className="grid md:grid-cols-2-gap-8">
@@ -38,8 +48,12 @@ const Projects = () => {
                 Voir le site
               </p>
             </Link>
-          </div>
+            <button className="text-center content-center rounded-lg text-black font-bold text-lg cursor-pointer" onClick={handleClick}> En savoir plus </button>
+            </div>
+         
         </div>
+
+     
 
         <h3 className="text-2xl tracking-wider text-center">
               Site web de e-commerce TShop
