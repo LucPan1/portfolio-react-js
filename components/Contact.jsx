@@ -28,8 +28,8 @@ const Contact = () => {
                 <h2 className='py-2'>Luc PAN</h2>
                 <p>Développeur Front-end</p>
                 <p className='pt-4'>
-                  Je suis disponible à partir de septembre 2023 pour un contrat en alternace.
-                  N'hésitez pas à me contacter ou pour discuter sur l'adresse mail: luc9902@hotmail.fr
+                  Je suis disponible à partir de novembre/décembre 2023 pour un contrat en alternance.
+                  N'hésitez pas à me contacter ou pour discuter sur l'adresse mail: lucpan2003@gmail.com
                 </p>
               </div>
               <div>
