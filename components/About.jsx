@@ -13,13 +13,20 @@ const About = () => {
           </p>
           <h2 className='py-4'>Mon profil</h2>
           <p className='py-2 text-gray-600'>
+
           Passionné par l'informatique, particulièrement dans le domaine du
-        développement web. Je trouve un grand plaisir à m'engager et participer
-        activement aux projets liés au Web. Je suis motivé par l'idée de
-        travailler dans une entreprise tout en montant en compétences et
-        d'apprendre de nouvelles technologies. Actuellement titulaire d'un BTS SIO, 
-        je suis une formation en Bachelor en Concepteur de Projet SI 
-        (Concepteur Développeur d’Applications) à l'Etna pour un Bac+3.
+          développement web. 
+
+          Doté d'une curiosité insatiable et d'une nature autodidacte, 
+          j'éprouve un véritable enthousiasme à explorer de nouvelles technologies et à concevoir des 
+          solutions innovantes.
+
+          <p>Actuellement titulaire d'un BTS SIO, je suis une formation dans une école d'informatique 
+          en Bachelor à l'ETNA pour un Bac+3.
+
+          Mon aspiration est de consolider mes compétences en développement web en 
+          intégrant une équipe dynamique.</p>
+
           </p>
          
           <Link href='/#projects' scroll={false}>

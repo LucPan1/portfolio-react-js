@@ -54,7 +54,7 @@ const Projects = () => {
         </CardBody>
       </Card>
         
-      <Card className="py-4 mx-4 mb-8">
+      {/* <Card className="py-4 mx-4 mb-8">
         <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
           <div className="grid md:grid-cols-2 gap-8">
             <h3 className="text-2xl tracking-wider text-center">
@@ -76,7 +76,7 @@ const Projects = () => {
             </a>
           </div>
         </CardBody>
-      </Card>
+      </Card> */}
     
       <Card className="py-4 mx-4 mb-8">
         <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
