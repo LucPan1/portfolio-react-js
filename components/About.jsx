@@ -17,10 +17,9 @@ const About = () => {
         développement web. Je trouve un grand plaisir à m'engager et participer
         activement aux projets liés au Web. Je suis motivé par l'idée de
         travailler dans une entreprise tout en montant en compétences et
-        d'apprendre de nouvelles technologies. Actuellement étudiant en deuxième
-        année de BTS SIO et je prévois de faire un Bachelor pour cette année en
-        Concepteur de Projet SI (Concepteur Développeur d’Applications) pour ma
-        troisième année à l'Etna
+        d'apprendre de nouvelles technologies. Actuellement titulaire d'un BTS SIO, 
+        je suis une formation en Bachelor en Concepteur de Projet SI 
+        (Concepteur Développeur d’Applications) à l'Etna pour un Bac+3.
           </p>
          
           <Link href='/#projects' scroll={false}>
