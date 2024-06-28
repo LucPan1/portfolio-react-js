@@ -14,7 +14,7 @@ const Main = () => {
             </h1>
             <h1 className='py-2 text-gray-700'>Développeur full-stack</h1>
             <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
-                Je suis un développeur web spécialisé dans le développement 
+                Je suis un développeur full-stack spécialisé dans le développement 
                 web. Actuellement, je me concentre dans des projets d'applications front-end 
                 et tout en apprenant la technologie back-end.
             </p>
