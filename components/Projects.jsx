@@ -30,29 +30,7 @@ const Projects = () => {
         <h2 className="py-4">Mes projets</h2>
 
         <div className="flex flex-wrap justify-center">
-      <Card className="py-4 mx-4 mb-8">
-        <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
-          <div className="grid md:grid-cols-2 gap-8">
-            <h3 className="text-2xl tracking-wider text-center">
-              Site web Ellis-car
-            </h3>
-            
-          </div>
-          <p className="text-center pt-2">Création d'articles et amélioration de la mise en page avec
-              Elementor Wordpress dans l'onglet blog</p>
-        </CardHeader>
-        <CardBody className="overflow-visible py-2">
-          <div className="relative flex justify-between h-auto w-full rounded-xl p-4">
-          <a href="https://www.ellis-car.fr/blog/" target="_blank">
-            <Image
-              className="rounded-xl group-hover:opacity-10 hover:scale-105 ease-in duration-500 w-full h-auto"
-              src={blogImg}
-              alt="/"
-            />
-            </a>
-          </div>
-        </CardBody>
-      </Card>
+      
         
       {/* <Card className="py-4 mx-4 mb-8">
         <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
@@ -145,6 +123,30 @@ const Projects = () => {
             <Image
               className="rounded-xl group-hover:opacity-10 hover:scale-105 ease-in duration-500 w-full h-auto pl-14"
               src={bonbonsImg}
+              alt="/"
+            />
+            </a>
+          </div>
+        </CardBody>
+      </Card>
+
+      <Card className="py-4 mx-4 mb-8">
+        <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
+          <div className="grid md:grid-cols-2 gap-8">
+            <h3 className="text-2xl tracking-wider text-center">
+              Site web Ellis-car
+            </h3>
+            
+          </div>
+          <p className="text-center pt-2">Création d'articles et amélioration de la mise en page avec
+              Elementor Wordpress dans l'onglet blog</p>
+        </CardHeader>
+        <CardBody className="overflow-visible py-2">
+          <div className="relative flex justify-between h-auto w-full rounded-xl p-4">
+          <a href="https://www.ellis-car.fr/blog/" target="_blank">
+            <Image
+              className="rounded-xl group-hover:opacity-10 hover:scale-105 ease-in duration-500 w-full h-auto"
+              src={blogImg}
               alt="/"
             />
             </a>
